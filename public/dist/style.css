@@ -1069,19 +1069,27 @@ label {
     padding: 1rem 3rem 1rem 1rem; }
     .pagination__next a:after {
       margin-left: 1rem;
-      content: '\2192'; }
+      content: "\2192"; }
   .pagination__prev {
     -ms-flex: 0 0 auto;
         flex: 0 0 auto;
     padding: 1rem 1rem 1rem 3rem; }
     .pagination__prev a:before {
       margin-right: 1rem;
-      content: '\2190'; }
+      content: "\2190"; }
   .pagination__text {
     -ms-flex: 3 0 auto;
         flex: 3 0 auto;
     padding: 1rem;
     text-align: center; }
+  @media all and (max-width: 450px) {
+    .pagination {
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      .pagination__prev, .pagination__next {
+        padding: 1rem; }
+      .pagination__text {
+        padding: 0; } }
 
 .map {
   padding: 20px;
