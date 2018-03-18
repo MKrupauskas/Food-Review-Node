@@ -4,10 +4,7 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2rem;
-  & + .stores {
-    margin-top: 2rem;
-  }
+  margin: 2rem 0 2rem 0;
 }
 
 .tag {

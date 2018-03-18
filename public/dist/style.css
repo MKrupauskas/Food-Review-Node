@@ -803,9 +803,7 @@ label {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 2rem; }
-  .tags + .stores {
-    margin-top: 2rem; }
+  margin: 2rem 0 2rem 0; }
 
 .tag {
   display: block;
@@ -1117,12 +1115,13 @@ label {
   font-size: 0; }
 
 .button {
-  margin-top: 2rem;
-  border: 0;
   background: #FFC40E;
   color: #303030;
+  border: 0;
   font-family: "Panama";
   font-weight: 600; }
+  input + .button {
+    margin-top: 2rem; }
 
 .avatar {
   min-width: 50px;

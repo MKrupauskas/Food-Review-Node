@@ -4,12 +4,14 @@
 }
 
 .button {
-  margin-top: 2rem;
-  border: 0;
   background: $yellow;
   color: $black;
+  border: 0;
   font-family: "Panama";
   font-weight: 600;
+  input + & {
+    margin-top: 2rem;
+  }
 }
 
 .avatar {
