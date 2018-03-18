@@ -496,11 +496,13 @@ p {
   font-size: 10rem;
   text-align: center; }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #e6e6e6; }
-  input.input--error, textarea.input--error {
+  input.input--error,
+  textarea.input--error {
     border-color: red; }
 
 label {
@@ -510,9 +512,8 @@ label {
 .form {
   background: white;
   padding: 2rem;
-  box-shadow: linear-gradient(90deg, #48ded4 0%, #a026bf 20%, #e82c75 60%, #FFC40E 85%, #48ded4 95%); }
-  .form + .form {
-    margin-top: 4rem; }
+  box-shadow: linear-gradient(90deg, #48ded4 0%, #a026bf 20%, #e82c75 60%, #FFC40E 85%, #48ded4 95%);
+  margin-top: 4rem; }
   .form h2 {
     margin: 0;
     font-size: 2rem;
@@ -800,9 +801,11 @@ label {
   list-style: none;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 2rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin-top: 2rem; }
+  .tags + .stores {
+    margin-top: 2rem; }
 
 .tag {
   display: block;
@@ -1114,10 +1117,11 @@ label {
   font-size: 0; }
 
 .button {
+  margin-top: 2rem;
   border: 0;
   background: #FFC40E;
   color: #303030;
-  font-family: 'Panama';
+  font-family: "Panama";
   font-weight: 600; }
 
 .avatar {
