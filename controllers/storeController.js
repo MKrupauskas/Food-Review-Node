@@ -94,7 +94,7 @@ exports.updateStore = async (req, res) => {
   }).exec();
   req.flash(
     "success",
-    `Successfully updated <strong>${store.name}</strong>. <a href="/stores/${
+    `Successfully updated <strong>${store.name}</strong>. <a href="/store/${
       store.slug
     }"> View Store </a>`
   );
