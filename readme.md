@@ -1,6 +1,6 @@
-## What is this?
+## Food Review Node [Demo](http://food-review.herokuapp.com/)
 
-Just you wait folks!
+This is a Node/Express CRUD app.
 
 ## Sample Data
 
